@@ -4783,13 +4783,7 @@ Object.assign(obj.entries, {
 
 // 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
 // ============================================================
-Object.assign(obj.entries, {
-    max_friends_count: "999999",
-    friend_limit_mode: "disabled",
-    soft_friend_limit_threshold_count: "999999",
-    show_friend_limit_on_cam: "false",
-    signup_max_friends_count: "999999",
-    celebrity_inbox_limit: "999999",
+Object.assign(obj.entries, {    friend_limit_mode: "disabled",    show_friend_limit_on_cam: "false",    celebrity_inbox_limit: "999999",
     celebrity_inbox_enabled: "true",
     celebrity_vip_qr_redemption_enabled: "true",
     friend_limit_geo_override: JSON.stringify({ experiments: {}, area_code_overrides: {} }),
