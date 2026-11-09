@@ -51,8 +51,8 @@ if (ua.includes("Locket")) {
             title: "Đã Kich Hoạt 💛",
             feature_set: [
                 {
-                    title: "Youtube @NightmarketServer ✨",
-                    body: "Nhớ Follow Kênh Ủng Hộ Mình Nhé 💛",
+                    title: "Nhớ follow TikTok @.mindangsuy ✨",
+                    body: "Một follow của bạn, một niềm vui của mình 💛",
                     imageURL: "https://i.postimg.cc/15BPkqNN/173376ce-0cb2-411c-80db-fe9adc931718.png"
                 }
             ],
