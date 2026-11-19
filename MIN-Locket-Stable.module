@@ -1,0 +1,14 @@
+#!name=MIN Locket - Stable
+#!desc=Module định tuyến Locket ổn định; không can thiệp thuê bao hoặc sửa dữ liệu API
+#!author=MIN
+#!system=ios
+
+[Rule]
+# Giữ các dịch vụ Locket/Firebase qua kết nối trực tiếp
+DOMAIN-SUFFIX,locketcamera.com,DIRECT
+DOMAIN,us-central1-locket-4252a.cloudfunctions.net,DIRECT
+DOMAIN,firebaseremoteconfig.googleapis.com,DIRECT
+DOMAIN,firebaseremoteconfigrealtime.googleapis.com,DIRECT
+DOMAIN,api.revenuecat.com,DIRECT
+DOMAIN-SUFFIX,firebaseio.com,DIRECT
+DOMAIN-SUFFIX,googleapis.com,DIRECT
